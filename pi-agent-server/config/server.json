@@ -1,0 +1,16 @@
+{
+	"host": "127.0.0.1",
+	"port": 8787,
+	"workspaceDir": "..",
+	"sessionDir": "data/sessions",
+	"agentDir": "data/agent",
+	"defaultModel": { "provider": "deepseek", "id": "deepseek-chat" },
+	"thinkingLevel": "off",
+	"tools": ["read", "powershell", "edit", "write", "grep", "find", "ls"],
+	"rag": {
+		"baseUrl": "http://127.0.0.1:8100",
+		"projectDir": "D:\\MyAPP\\rag",
+		"python": "C:\\Users\\17764\\.conda\\envs\\rag\\python.exe",
+		"autoStart": true
+	}
+}
